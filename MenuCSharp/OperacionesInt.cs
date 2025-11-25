@@ -1,7 +1,7 @@
 
 using System;
 
-public class OperacionesInt
+namespace MenuCSharp{public class OperacionesInt
 {
     public static void Ejecutar()
     {
@@ -19,4 +19,5 @@ public class OperacionesInt
         Console.WriteLine($"Multiplicación: {a * b}");
         Console.WriteLine($"División: {a / b}");
     }
+}
 }

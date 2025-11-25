@@ -1,5 +1,7 @@
 using System;
 
+
+namespace MenuCSharp{
 public class OperacionesString
 {
     public static void Ejecutar()
@@ -15,4 +17,5 @@ public class OperacionesString
         Console.WriteLine($"En minúscula: {texto.ToLower()}");
         Console.WriteLine($"¿Contiene la palabra 'hola'? {texto.Contains("hola")}");
     }
+}
 }

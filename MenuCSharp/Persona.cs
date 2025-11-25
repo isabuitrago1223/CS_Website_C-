@@ -1,6 +1,7 @@
 using System;
 
-public class Persona
+namespace MenuCSharp{
+    public class Persona
 {
     public string Nombre { get; set; }
     public int Edad { get; set; }
@@ -21,5 +22,8 @@ public class Persona
         Console.WriteLine($"\nPersona creada:");
         Console.WriteLine($"Nombre: {p.Nombre}");
         Console.WriteLine($"Edad: {p.Edad}");
+
+        
     }
+}
 }

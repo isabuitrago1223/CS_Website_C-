@@ -1,5 +1,6 @@
 using System;
 
+namespace MenuCSharp{
 public class OperacionesBoolean
 {
     public static void Ejecutar()
@@ -14,4 +15,5 @@ public class OperacionesBoolean
 
         Console.WriteLine($"¿El número es par? {esPar}");
     }
+}
 }

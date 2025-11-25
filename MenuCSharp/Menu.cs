@@ -1,5 +1,6 @@
 using System;
 
+namespace MenuCSharp{
 public class Menu
 {
     public static void MostrarMenu()
@@ -50,4 +51,5 @@ public class Menu
 
         } while (opcion != 0);
     }
+}
 }

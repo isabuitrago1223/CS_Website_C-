@@ -1,5 +1,6 @@
 using System;
 
+namespace MenuCSharp{
 public class OperacionesFloatDouble
 {
     public static void Ejecutar()
@@ -16,4 +17,5 @@ public class OperacionesFloatDouble
         Console.WriteLine($"\nFLOAT * DOUBLE = {f * d}");
         Console.WriteLine($"DOUBLE / FLOAT = {d / f}");
     }
+}
 }
